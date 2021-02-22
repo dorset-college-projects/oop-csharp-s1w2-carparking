@@ -10,6 +10,15 @@ namespace ParkingCharges.Models
 
         public string registration { get; set; }
 
+        //Overloading 
+        public Customer(int _hours)
+        {
+          
+            hours = _hours;
+            registration = "?";
+
+        }
+
         public Customer(string _registration, int _hours)
         {
             registration = _registration;
