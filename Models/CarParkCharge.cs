@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ParkingCharges.Models
 {
-    public class CarParkCharge
+    public partial class CarParkCharge
     {
         public static double feeMinimum = 2;
         public static double feeMaximum = 10;
@@ -38,7 +38,6 @@ namespace ParkingCharges.Models
             return feeMinimum;
 
         }
-
 
     }
 }

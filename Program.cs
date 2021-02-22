@@ -24,6 +24,8 @@ namespace ParkingCharges
 
             Console.WriteLine($"Total charge is {totalDailyCharge}");
 
+            CarParkCharge cpc = new CarParkCharge();
+            Console.WriteLine(cpc.ToString());
 
         }
     }
